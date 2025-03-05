@@ -21,7 +21,17 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
+
+	
+	function test(){
+		console.log('test');
+		
+	};
+	window.onload = function() {
+        	test();
+    	};
 </script>
+	
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript' src='https://anydesk--dev05.sandbox.my.site.com/ESWlivechatdeployment1738967352241/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
